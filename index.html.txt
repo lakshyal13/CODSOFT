@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional services landing page">
+  <title>Lakshya's Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <header>
+    <div class="navbar">
+      <div class="logo">RoseCurv</div>
+      <nav>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="intro">
+      <h1>Welcome to RoseCurv</h1>
+      <p>Your one stop solution for all technical needs</p>
+      <a href="#services" class="cta-button">Explore Our Services</a>
+    </div>
+  </header>
+
+  
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-item">
+      <h3>Web Design</h3>
+      <p>We create user friendly and eye catching web designs to boost your buisnesses</p>
+    </div>
+    <div class="service-item">
+      <h3>SEO Optimization</h3>
+      <p>Increase your site's visibility with our expert SEO services, driving more traffic to your website.</p>
+    </div>
+    <div class="service-item">
+      <h3>Consulting</h3>
+      <p>Professional and experienced entrepreneurs are onboard to help you.</p>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>We are a team of professionals dedicated to delivering top-notch services for businesses of all sizes. We focus on providing customized solutions to help you achieve your business goals.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p> See you on the other side!!</p>
+    <a href="thebestisyettobe2023@gmail.com" class="cta-button">Contact Us</a>
+  </section>
+
+  
+  <footer>
+    <p>&copy; 2024 RoseCurv. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

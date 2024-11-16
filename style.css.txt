@@ -1,0 +1,158 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  background-color: #333;
+}
+
+header {
+  position: relative;
+  height: 100vh;
+  background: url('https://cdn.vectorstock.com/i/500p/84/65/abstract-white-monochrome-background-vector-32028465.jpg') no-repeat center center/cover;
+  color: black;
+  text-align: left;
+  padding: 100px 20px;
+  text-align:center;
+}
+
+.navbar {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 10;
+  color:black;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar nav ul {
+  list-style: none;
+  display: flex;
+  color:black;
+}
+
+.navbar nav ul li {
+  margin: 0 15px;
+  color:black;
+}
+
+.navbar nav ul li a {
+  color: black;;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+
+
+
+.intro h1 {
+  font-size: 3em;
+  margin: 0.5em 0;
+  color: black;
+}
+
+.intro p {
+  font-size: 1.2em;
+}
+
+.cta-button {
+  background-color: #f39c12;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.cta-button:hover {
+  background-color: #e67e22;
+}
+
+
+.services {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXMPXUWFBF2dgCHXZm7tL8RTOKfH01QXc_Ew&s') no-repeat center center/cover ;
+  font-style: Georgia;
+  padding: 60px 20px;
+  background-color: #2c3e50;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+}
+
+.service-item {
+  margin-bottom: 40px;
+}
+
+.service-item h3 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 1.1em;
+}
+
+
+.about {
+   background: url('https://cdn.vectorstock.com/i/500p/84/65/abstract-white-monochrome-background-vector-32028465.jpg') no-repeat center center/cover ;
+  
+  padding: 60px 20px;
+  color:black;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+
+.contact {
+   background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXMPXUWFBF2dgCHXZm7tL8RTOKfH01QXc_Ew&s') no-repeat center center/cover ;
+  
+  padding: 60px 20px;
+  background-color: #16a085;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+
+footer {
+  background-color: #2c3e50;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1em;
+  color: #fff;
+}
