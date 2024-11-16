@@ -1,75 +1,41 @@
 body {
-    display: flex;
-    justify-content: center;
-    height: 100vh;
     margin: 0;
-    background-color: white;
+    padding: 0;
+    line-height: 1.5;
 }
 
-.calculator {
-    background-color: black;
-    border-radius: 10px;
-    width: 300px;
+header {
+    background: lightgrey;
+    color: black;
+    padding: 20px 10px;
+}
+
+section {
     padding: 20px;
-    text-align: center;
+    margin: 10px 0;
 }
 
-#display {
+#about img {
   
-    width: 100%;
-    height: 50px;
-    font-size: 2rem;
-    text-align: right;
-    background-color: white;
+    max-width: 200px;
+    border-radius: 10%;
+}
+
+h2 {
+  text-align:left;
+  background: lightgrey;
     color: black;
-    border: grey;
-    border-radius: 5px;
-    margin-bottom: 30px;
+    padding: 20px 10px;
+  padding-bottom: 5px;
 }
 
-
-.buttons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+.project {
+    margin-bottom: 20px;
 }
-
-
-.button {
-    padding: 20px;
-    font-size: 1.5rem;
-    background-color: lightgrey;
+footer {
+  background: lightgrey;
     color: black;
-   border: none;
-    border-radius: 5px;
-    
+    padding: 20px 10px;
+  text-align: center;
+  
 }
-
-.button:active {
-    background-color: black;
-}
-
-.operator {
-    background-color: orange;
-}
-
-.operator:active {
-    background-color: yellow;
-}
-
-.equals {
-    background-color: green;
-}
-
-.equals:active {
-    background-color: lightgreen;
-}
-
-.clear {
-    background-color: crimson;
-}
-
-.clear:active {
-    background-color: pink;
-}
-
